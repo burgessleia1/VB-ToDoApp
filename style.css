@@ -1,29 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f9;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  background-color: rgb(52, 52, 52);
+  font-family: "Inter", sans-serif;
 }
-.container {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+
+h1,
+p,
+label {
+  color: #ffffff;
 }
-.input-group {
-  display: flex;
-  gap: 10px;
+
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #6366f1; /* Indigo glow */
 }
-li {
-  display: flex;
-  justify-content: space-between;
-  margin: 8px 0;
-  padding: 5px;
-  border-bottom: 1px solid #ddd;
+
+
+button {
+  transition: transform 0.1s ease, background-color 0.3s ease;
 }
-.done {
-  text-decoration: line-through;
-  color: gray;
+
+button:hover {
+  transform: scale(1.05);
 }
